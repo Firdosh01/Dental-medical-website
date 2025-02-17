@@ -1,1 +1,148 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "General Sans", sans-serif;
+}
+:root {
+  --dark-blue-color: #011632;
+  --mid-blue-color: #1376f8;
+  --sky-blue-color: #25b4f8;
+  --light-blue-color: #e6f6fe;
+  --secondary-white-color: #ffffff;
+  --body-text-color: #3c4959;
+  --success-color: #17bf28;
+  --warning-color: #ec942c;
+  --error-color: #e52323;
+}
+/* heading semibold */
+.h1_semibold {
+  font-size: 3.875rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -2%;
+  line-height: 120%;
+}
+.h2_semibold {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0%;
+  line-height: 125%;
+}
+
+.h1_bold {
+  font-size: 3.875rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -2%;
+  line-height: 120%;
+}
+.h1_medium {
+  font-size: 3.875rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -2%;
+  line-height: 120%;
+}
+.h1_regular {
+  font-size: 3.875rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -2%;
+  line-height: 120%;
+}
+
+/* ---  */
+
+.h2_bold {
+  font-size: 3.875rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0%;
+  line-height: 125%;
+}
+.h2_medium {
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0%;
+  line-height: 125%;
+}
+.h2_regular {
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0%;
+  line-height: 125%;
+}
+
+/* ------  */
+
+.h3_bold {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0%;
+  line-height: 125%;
+}
+.h3_semibold {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0%;
+  line-height: 125%;
+}
+.h3_medium {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0%;
+  line-height: 125%;
+}
+.h3_regular {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0%;
+  line-height: 125%;
+}
+
+/* _____ */
+
+.h4_regular {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0%;
+  line-height: 125%;
+}
+
+/* body text regular  */
+.b1_regular {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0%;
+  line-height: 155%;
+}
+.b2_regular {
+  font-family: "Archivo", serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.5%;
+  line-height: 155%;
+}
+.b3_regular {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 155%;
+}
