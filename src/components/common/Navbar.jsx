@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.scss";
+import Button from "./Button";
 
 const Navbar = () => {
   return (
@@ -56,13 +57,13 @@ const Navbar = () => {
                     }`
                   }
                 >
-                  Contact
+                  Contact 
                 </NavLink>
               </li>
             </ul>
           </nav>
           <div>
-            <button>Book Now</button>
+           <Button>Book Now</Button>
           </div>
         </div>
       </div>

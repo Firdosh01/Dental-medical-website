@@ -8,6 +8,7 @@
 }
 body {
   font-family: "General Sans", sans-serif;
+  font-style: normal;
 }
 :root {
   --dark-blue-color: #011632;
@@ -28,35 +29,35 @@ body {
 /* heading semibold */
 .h1_semibold {
   font-size: 3.875rem;
-  font-style: normal;
+
   font-weight: 600;
   letter-spacing: -2%;
   line-height: 120%;
 }
 .h2_semibold {
   font-size: 2.5rem;
-  font-style: normal;
+
   font-weight: 600;
   letter-spacing: 0%;
   line-height: 125%;
 }
 .h1_bold {
   font-size: 3.875rem;
-  font-style: normal;
+
   font-weight: 700;
   letter-spacing: -2%;
   line-height: 120%;
 }
 .h1_medium {
   font-size: 3.875rem;
-  font-style: normal;
+
   font-weight: 500;
   letter-spacing: -2%;
   line-height: 120%;
 }
 .h1_regular {
   font-size: 3.875rem;
-  font-style: normal;
+
   font-weight: 400;
   letter-spacing: -2%;
   line-height: 120%;
@@ -66,21 +67,21 @@ body {
 
 .h2_bold {
   font-size: 3.875rem;
-  font-style: normal;
+
   font-weight: 700;
   letter-spacing: 0%;
   line-height: 125%;
 }
 .h2_medium {
   font-size: 2.625rem;
-  font-style: normal;
+
   font-weight: 500;
   letter-spacing: 0%;
   line-height: 125%;
 }
 .h2_regular {
   font-size: 2.625rem;
-  font-style: normal;
+
   font-weight: 400;
   letter-spacing: 0%;
   line-height: 125%;
@@ -90,69 +91,79 @@ body {
 
 .h3_bold {
   font-size: 2.25rem;
-  font-style: normal;
   font-weight: 700;
   letter-spacing: 0%;
   line-height: 125%;
 }
 .h3_semibold {
   font-size: 2.25rem;
-  font-style: normal;
+
   font-weight: 600;
   letter-spacing: 0%;
   line-height: 125%;
 }
 .h3_medium {
   font-size: 2.25rem;
-  font-style: normal;
   font-weight: 500;
   letter-spacing: 0%;
   line-height: 125%;
 }
 .h3_regular {
   font-size: 2.25rem;
-  font-style: normal;
   font-weight: 400;
   letter-spacing: 0%;
   line-height: 125%;
 }
 
 /* _____ */
-/* h4 same all only change the weight  */
 
+.h4_bold {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0%;
+  line-height: 120%;
+}
+.h4_semibold {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0%;
+  line-height: 120%;
+}
+.h4_medium {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0%;
+  line-height: 120%;
+}
 .h4_regular {
-  font-size: 2.25rem;
-  font-style: normal;
+  font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0%;
-  line-height: 125%;
+  line-height: 120%;
 }
+
 
 /* body text regular  */
 .b1_regular {
-  font-size: 1.5rem;
-  font-style: normal;
+  font-size: 1.125rem;
   font-weight: 400;
   letter-spacing: 1.5%;
   line-height: 155%;
 }
 .b1_medium {
-  font-size: 1.25rem;
-  font-style: normal;
+  font-size: 1.125rem;
   font-weight: 500;
   letter-spacing: 1.5%;
   line-height: 155%;
 }
 .b1_semibold {
-  font-size: 1.25rem;
-  font-style: normal;
+  font-size: 1.125rem;
   font-weight: 600;
   letter-spacing: 1.5%;
   line-height: 155%;
 }
 .b1_bold {
-  font-size: 1.25rem;
-  font-style: normal;
+  font-size: 1.125rem;
   font-weight: 700;
   letter-spacing: 1.5%;
   line-height: 155%;
@@ -162,7 +173,7 @@ body {
 
 .b2_regular {
   font-size: 1rem;
-  font-style: normal;
+
   font-weight: 400;
   letter-spacing: 1.5%;
   line-height: 155%;
@@ -175,14 +186,14 @@ body {
 }
 .b2_semibold {
   font-size: 1rem;
-  font-style: normal;
+
   font-weight: 600;
   letter-spacing: 1.5%;
   line-height: 155%;
 }
 .b2_bold {
   font-size: 1rem;
-  font-style: normal;
+
   font-weight: 700;
   letter-spacing: 1.5%;
   line-height: 155%;
