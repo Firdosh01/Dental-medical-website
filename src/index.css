@@ -20,6 +20,18 @@ body {
   --success-color: #17bf28;
   --warning-color: #ec942c;
   --error-color: #e52323;
+
+  --linear-gradient-1: linear-gradient(
+    0deg,
+    rgba(37, 180, 248, 0) 0%,
+    rgba(37, 180, 248, 0.47) 51.04%,
+    rgb(37, 180, 248) 100%
+  );
+  --linear-gradient-2: linear-gradient(
+    0deg,
+    rgba(37, 180, 248, 0.3) 0%,
+    rgba(37, 180, 248, 0) 100%
+  );
 }
 .max_width_container {
   max-width: 1440px;
@@ -141,7 +153,6 @@ body {
   letter-spacing: 0%;
   line-height: 120%;
 }
-
 
 /* body text regular  */
 .b1_regular {
