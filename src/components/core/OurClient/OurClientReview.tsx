@@ -10,7 +10,7 @@ const OurClientReview = () => {
   const clientReview = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3.1,
+      items: 3.7,
       slidesToSlide: 1,
     },
     tablet: {
@@ -74,12 +74,13 @@ const OurClientReview = () => {
             }
             // dotListClass="custom-dot-list-style"
             className="!pb-[100px]"
+            itemClass="!mx-2"
           >
             {ourClientReview.map((val, index) => {
               return (
                 <div
                   key={index}
-                  className="relative !w-[413px] bg-white shadow-[0px_2px_10px_0px_rgba(0,0,0,0.12)] rounded-[10px] !p-6 !my-2"
+                  className="relative !max-w-[413px]  bg-white shadow-[0px_2px_10px_0px_rgba(0,0,0,0.12)] rounded-[10px] !p-6 !my-2"
                 >
                   <div className="flex flex-col gap-[15px]">
                     <div className="flex items-center gap-[8px]">
