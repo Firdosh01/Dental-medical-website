@@ -8,32 +8,14 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CustomLeftArrow from "../components/common/CustomLeftArrow";
 import CustomRightArrow from "../components/common/CustomRightArrow";
-import { ourClientReview, ourSpecialists } from "../data/constents";
-import { ImStarFull } from "react-icons/im";
+import { ourSpecialists } from "../data/constents";
+import OurClientReview from "../components/core/OurClient/OurClientReview";
 
 const Home = () => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 4.1,
-      slidesToSlide: 1,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-      slidesToSlide: 1,
-    },
-  };
-
-  const clientReview = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3.1,
       slidesToSlide: 1,
     },
     tablet: {
@@ -414,94 +396,34 @@ const Home = () => {
       </div>
       {/* Meet our specialists section end */}
 
-      {/* Meet our specialists section start */}
-      <div className="!mt-[100px]  flex flex-col !py-[50px]">
-        <div className="flex justify-center items-center flex-col max_width_container">
-          <div className="flex flex-col gap-[20px] max-w-[479px]">
-            <div className="h2_semibold text-[var(--dark-blue-color)] text-center">
-              {/* Meet our  */}
-              <div className="flex gap-3 justify-center items-center">
-                {" "}
-                Our
-                <div className="relative !z-[999] items-center text-center">
-                  Happy Clients
-                  <div className="absolute top-[-54px] left-0 !z-[9]">
-                    <img
-                      src="/assets/logos/welcoming-underline.png"
-                      alt=""
-                      className="w-[276px]"
-                    />
-                  </div>
-                </div>
+      {/* our client review section start */}
+        <OurClientReview />
+      {/* our client review section end */}
+
+      <div className="!mt-[100px]  flex flex-col !pt-[0px] max_width_container">
+        <div className="flex justify-between items-end">
+          <div className="flex flex-col gap-[20px] w-[455px]">
+            <div className="relative !z-[999] h2_semibold text-[var(--dark-blue-color)]">
+              News & Articles
+              <div className="absolute top-[-70px] left-0 !z-[9]">
+                <img
+                  src="/assets/logos/welcoming-underline.png"
+                  alt=""
+                  className="w-[300px]"
+                />
               </div>
             </div>
-            <div className="text-[var(--body-text-color)] b1_regular text-center">
+            <div className="text-[var(--body-text-color)] b1_regular">
               We use only the best quality materials on the market in order to
               provide the best products to our patients.
             </div>
           </div>
-        </div>
-        <div className="!ml-[80px] !mt-[80px]">
-          <div>
-            <Carousel
-              swipeable={false}
-              draggable={false}
-              showDots={false}
-              responsive={clientReview}
-              ssr={true}
-              infinite={true}
-              // autoPlay={true}
-              // autoPlaySpeed={1000}
-              keyBoardControl={true}
-              customTrnsition="all .5"
-              transitionDuration={2000}
-              containerClass="carousel-container"
-              removeArrowOnDeviceType={["tablet", "mobile"]}
-              customRightArrow={
-                <CustomRightArrow BgColor={"#011632"} IconColor={"#fff"} />
-              }
-              customLeftArrow={
-                <CustomLeftArrow BgColor={"#011632"} IconColor={"#fff"} />
-              }
-              // dotListClass="custom-dot-list-style"
-              className="!pb-[100px]"
-            >
-              {ourClientReview.map((val, index) => {
-                return (
-                  <div
-                    key={index}
-                    className="relative !w-[413px] bg-white shadow-[0px_2px_10px_0px_rgba(0,0,0,0.12)] rounded-[10px] !p-6 !my-2"
-                  >
-                    <div className="flex flex-col gap-[15px]">
-                      <div className="flex items-center gap-[8px]">
-                        <div>
-                          <img src={val.src} alt="" />
-                        </div>
-                        <div className="flex flex-col gap-[5px]">
-                          <div className="text-[var(--body-text-color)] text-[24px] tracking-[2%] leading-[155%] font-medium">
-                            {val.name}
-                          </div>
-                          <div className="flex">
-                            <ImStarFull size={20} fill="var(--warning-color)" />
-                            <ImStarFull size={20} fill="var(--warning-color)" />
-                            <ImStarFull size={20} fill="var(--warning-color)" />
-                            <ImStarFull size={20} fill="var(--warning-color)" />
-                            <ImStarFull size={20} fill="var(--warning-color)" />
-                          </div>
-                        </div>
-                      </div>
-                      <div className="b2_regular text-[var(--body-text-color)]">
-                        {val.review}
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </Carousel>
+
+          <div className="w-fit">
+            <Button>View All</Button>
           </div>
         </div>
       </div>
-      {/* Meet our specialists section end */}
     </div>
   );
 };
