@@ -107,3 +107,62 @@ export const ourClientReview = [
       "Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.",
   },
 ];
+
+export const newsAndArticles = [
+  {
+    id: 1,
+    src: "/assets/images/article-img-1.png",
+    title: "Care of your Teeth",
+    value: "Lorem ipsum dolor sit amet consectetur.",
+    author: "~Anita Jackson",
+  },
+  {
+    id: 2,
+    src: "/assets/images/article-img-2.png",
+    title: "Care of your Teeth",
+    value: "Lorem ipsum dolor sit amet consectetur.",
+    author: "~Anita Jackson",
+  },
+  {
+    id: 3,
+    src: "/assets/images/article-img-3.png",
+    title: "Care of your Teeth",
+    value: "Lorem ipsum dolor sit amet consectetur.",
+    author: "~Anita Jackson",
+  },
+  {
+    id: 4,
+    src: "/assets/images/article-img-4.png",
+    title: "Care of your Teeth",
+    value: "Lorem ipsum dolor sit amet consectetur.",
+    author: "~Anita Jackson",
+  },
+  {
+    id: 5,
+    src: "/assets/images/article-img-5.png",
+    title: "Care of your Teeth",
+    value: "Lorem ipsum dolor sit amet consectetur.",
+    author: "~Anita Jackson",
+  },
+  {
+    id: 6,
+    src: "/assets/images/article-img-6.png",
+    title: "Care of your Teeth",
+    value: "Lorem ipsum dolor sit amet consectetur.",
+    author: "~Anita Jackson",
+  },
+  {
+    id: 7,
+    src: "/assets/images/article-img-7.png",
+    title: "Care of your Teeth",
+    value: "Lorem ipsum dolor sit amet consectetur.",
+    author: "~Anita Jackson",
+  },
+  {
+    id: 8,
+    src: "/assets/images/article-img-8.png",
+    title: "Care of your Teeth",
+    value: "Lorem ipsum dolor sit amet consectetur.",
+    author: "~Anita Jackson",
+  },
+];

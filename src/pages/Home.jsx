@@ -10,6 +10,7 @@ import CustomLeftArrow from "../components/common/CustomLeftArrow";
 import CustomRightArrow from "../components/common/CustomRightArrow";
 import { ourSpecialists } from "../data/constents";
 import OurClientReview from "../components/core/OurClient/OurClientReview";
+import ArticlesGrid from "../components/core/Articles/ArticlesGrid";
 
 const Home = () => {
   const responsive = {
@@ -397,7 +398,7 @@ const Home = () => {
       {/* Meet our specialists section end */}
 
       {/* our client review section start */}
-        <OurClientReview />
+      <OurClientReview />
       {/* our client review section end */}
 
       <div className="!mt-[100px]  flex flex-col !pt-[0px] max_width_container">
@@ -423,10 +424,8 @@ const Home = () => {
             <Button>View All</Button>
           </div>
         </div>
-        <div>
-          <div>
-            
-          </div>
+        <div className="!mt-[71px]">
+          <ArticlesGrid />
         </div>
       </div>
     </div>
