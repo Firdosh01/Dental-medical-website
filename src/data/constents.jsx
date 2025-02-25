@@ -48,3 +48,62 @@ export const ourSpecialists = [
     role: "Pediatric Dentist.",
   },
 ];
+
+export const ourClientReview = [
+  {
+    id: 1,
+    src: "/assets/logos/review-img-1.png",
+    name: "Jim Carry",
+    review:
+      "Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.",
+  },
+  {
+    id: 2,
+    src: "/assets/logos/review-img-2.png",
+    name: "Alena Alex",
+    review:
+      "Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.",
+  },
+  {
+    id: 3,
+    src: "/assets/logos/review-img-3.png",
+    name: "Thomas Edison",
+    review:
+      "Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.",
+  },
+  {
+    id: 4,
+    src: "/assets/logos/review-img-4.png",
+    name: "Thomas daniel",
+    review:
+      "Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.",
+  },
+  {
+    id: 1,
+    src: "/assets/logos/review-img-1.png",
+    name: "Jim Carry",
+    review:
+      "Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.",
+  },
+  {
+    id: 2,
+    src: "/assets/logos/review-img-2.png",
+    name: "Alena Alex",
+    review:
+      "Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.",
+  },
+  {
+    id: 3,
+    src: "/assets/logos/review-img-3.png",
+    name: "Thomas Edison",
+    review:
+      "Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.",
+  },
+  {
+    id: 4,
+    src: "/assets/logos/review-img-4.png",
+    name: "Thomas daniel",
+    review:
+      "Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.",
+  },
+];
