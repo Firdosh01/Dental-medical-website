@@ -480,9 +480,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* footer section start */}
-      <Footer />
-      {/* footer section end */}
     </div>
   );
 };
