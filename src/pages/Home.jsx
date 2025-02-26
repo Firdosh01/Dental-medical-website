@@ -12,6 +12,7 @@ import { ourSpecialists } from "../data/constents";
 import OurClientReview from "../components/core/OurClient/OurClientReview";
 import ArticlesGrid from "../components/core/Articles/ArticlesGrid";
 import FrequentlyAskQues from "../components/core/FrequentlyAskQues/FrequentlyAskQues";
+import Footer from "../components/common/Footer";
 
 const Home = () => {
   const responsive = {
@@ -452,6 +453,36 @@ const Home = () => {
         </div>
       </div>
       {/* Frequently Ask Question section end */}
+
+      <div className="!my-[110px] max_width_container">
+        <div className="flex justify-center items-center">
+          <div className="bg-[var(--dark-blue-color)] flex justify-between items-center gap-[80px] !px-12 !w-[1064px] !h-[392px] rounded-[10px]">
+            <div className="w-[582px]">
+              <div className="h2_semibold text-[var(--secondary-white-color)] capitalize">
+                Dental Website that&apos;s gonna shake the game rules up.
+              </div>
+              <p className="b1_regular text-[var(--secondary-white-color)] !mt-[13px]">
+                We use only the best quality materials on the market in order to
+                provide the best products to our patients.
+              </p>
+              <div className="w-fit !mt-[30px]">
+                <Button>Learn More</Button>
+              </div>
+            </div>
+            <div className="w-[305px] h-[292px]">
+              <img
+                src="/assets/images/article-img-2.png"
+                alt=""
+                className="w-full h-full object-cover rounded-[10px]"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* footer section start */}
+      <Footer />
+      {/* footer section end */}
     </div>
   );
 };
