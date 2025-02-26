@@ -11,6 +11,7 @@ import CustomRightArrow from "../components/common/CustomRightArrow";
 import { ourSpecialists } from "../data/constents";
 import OurClientReview from "../components/core/OurClient/OurClientReview";
 import ArticlesGrid from "../components/core/Articles/ArticlesGrid";
+import FrequentlyAskQues from "../components/core/FrequentlyAskQues/FrequentlyAskQues";
 
 const Home = () => {
   const responsive = {
@@ -318,7 +319,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
       {/* Meet our specialists section start */}
       <div className="!mt-[120px] bg-[var(--light-blue-color)]  min-h-[753px] flex flex-col !py-[50px]">
         <div className="flex justify-center items-center flex-col max_width_container">
@@ -396,11 +396,10 @@ const Home = () => {
         </div>
       </div>
       {/* Meet our specialists section end */}
-
       {/* our client review section start */}
       <OurClientReview />
       {/* our client review section end */}
-
+      {/* article section start */}
       <div className="!mt-[100px]  flex flex-col !pt-[0px] max_width_container">
         <div className="flex justify-between items-end">
           <div className="flex flex-col gap-[20px] w-[455px]">
@@ -428,6 +427,31 @@ const Home = () => {
           <ArticlesGrid />
         </div>
       </div>
+      {/* article section end */}
+
+      {/* Frequently Ask Question section start */}
+      <div className="!mt-[100px] max_width_container">
+        <div className="flex flex-col gap-[20px] justify-center items-center">
+          <div className="relative !z-[999] h2_semibold text-[var(--dark-blue-color)] !select-none">
+            Frequently Ask Question
+            <div className="absolute top-[-125px] left-0 !z-[9]">
+              <img
+                src="/assets/logos/welcoming-underline.png"
+                alt=""
+                className="w-[600px]"
+              />
+            </div>
+          </div>
+          <div className="text-[var(--body-text-color)] b1_regular max-w-[455px] text-center">
+            We use only the best quality materials on the market in order to
+            provide the best products to our patients.
+          </div>
+        </div>
+        <div className="!mt-[66px]">
+          <FrequentlyAskQues />
+        </div>
+      </div>
+      {/* Frequently Ask Question section end */}
     </div>
   );
 };

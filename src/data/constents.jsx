@@ -166,3 +166,30 @@ export const newsAndArticles = [
     author: "~Anita Jackson",
   },
 ];
+
+export const frequentlyAskQuesData = [
+  {
+    id: 1,
+    title: "Can I see who reads my email campaigns?",
+    value:
+      "Lorem ipsum dolor sit amet consectetur. Convallis cras placerat dignissim aliquam massa. Aliquet volutpat rhoncus in convallis consectetur. Cras adipiscing volutpat non hac enim odio enim.",
+  },
+  {
+    id: 2,
+    title: "Do you offer non-profit discounts?",
+    value:
+      "Lorem ipsum dolor sit amet consectetur. Convallis cras placerat dignissim aliquam massa. Aliquet volutpat rhoncus in convallis consectetur. Cras adipiscing volutpat non hac enim odio enim.",
+  },
+  {
+    id: 3,
+    title: "Can I see who reads my email campaigns?",
+    value:
+      "Lorem ipsum dolor sit amet consectetur. Convallis cras placerat dignissim aliquam massa. Aliquet volutpat rhoncus in convallis consectetur. Cras adipiscing volutpat non hac enim odio enim.",
+  },
+  {
+    id: 4,
+    title: "Can I see who reads my email campaigns?",
+    value:
+      "Lorem ipsum dolor sit amet consectetur. Convallis cras placerat dignissim aliquam massa. Aliquet volutpat rhoncus in convallis consectetur. Cras adipiscing volutpat non hac enim odio enim.",
+  },
+];
