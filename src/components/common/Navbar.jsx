@@ -2,10 +2,13 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.scss";
 import Button from "./Button";
 
-const Navbar = () => {
+const Navbar = ({navbarBgColor}) => {
   return (
-    <div className="max_width_container">
-      <div className="navbar_container">
+    <div className="max_width_container !pt-[40px]">
+      <div
+        className="navbar_container"
+        style={{ backgroundColor: `${navbarBgColor}` }}
+      >
         <div className="navbar">
           <div>
             <img src="/assets/logos/logo.png" alt="" />
@@ -26,7 +29,7 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
-                  to="/about"
+                  to="/about-us"
                   className={({ isActive }) =>
                     `b2_medium text-[var(--dark-blue-color)] ${
                       isActive ? "b2_semibold !b2_medium" : ""
@@ -57,13 +60,13 @@ const Navbar = () => {
                     }`
                   }
                 >
-                  Contact 
+                  Contact
                 </NavLink>
               </li>
             </ul>
           </nav>
           <div>
-           <Button>Book Now</Button>
+            <Button>Book Now</Button>
           </div>
         </div>
       </div>

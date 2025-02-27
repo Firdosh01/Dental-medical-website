@@ -33,6 +33,11 @@ body {
     rgba(37, 180, 248, 0.3) 0%,
     rgba(37, 180, 248, 0) 100%
   );
+  --linear-gradient-3: linear-gradient(
+    180deg,
+    rgba(230, 246, 254, 1) 0%,
+    rgba(230, 246, 254, 0) 100%
+  );
 }
 .max_width_container {
   max-width: 1440px;

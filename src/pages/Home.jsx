@@ -12,7 +12,7 @@ import { ourSpecialists } from "../data/constents";
 import OurClientReview from "../components/core/OurClient/OurClientReview";
 import ArticlesGrid from "../components/core/Articles/ArticlesGrid";
 import FrequentlyAskQues from "../components/core/FrequentlyAskQues/FrequentlyAskQues";
-import Footer from "../components/common/Footer";
+import Navbar from "../components/common/Navbar";
 
 const Home = () => {
   const responsive = {
@@ -35,6 +35,7 @@ const Home = () => {
 
   return (
     <div>
+      <Navbar navbarBgColor={"#e6f6fe"} />
       <div className="max_width_container">
         <div className="flex">
           <div className="max-w-[787px] !pt-[116px]">
@@ -479,7 +480,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };
