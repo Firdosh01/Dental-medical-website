@@ -10,7 +10,7 @@ const About = () => {
       }}
     >
       <Navbar navbarBgColor={"#ffffff"} />
-      <div className="max_width_container !mt-[80px]">
+      <div className="max_width_container !mt-[90px]">
         <div className="h1_semibold text-[var(--dark-blue-color)] capitalize flex justify-center items-center">
           <div className="flex gap-3">
             <div className="relative !z-[999]">
