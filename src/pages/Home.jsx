@@ -9,6 +9,7 @@ import ArticlesGrid from "../components/core/Articles/ArticlesGrid";
 import FrequentlyAskQues from "../components/core/FrequentlyAskQues/FrequentlyAskQues";
 import Navbar from "../components/common/Navbar";
 import OurSpecialists from "../components/core/ourSpecialists/OurSpecialists";
+import { IoCallOutline } from "react-icons/io5";
 
 const Home = () => {
   return (
@@ -155,7 +156,19 @@ const Home = () => {
                 anything and book yourself.
               </div>
             </div>
-            <div>aa</div>
+            <div className="border border-[#CECECE] rounded-[10px] flex w-[442px] justify-between items-center overflow-hidden ">
+              <div className="flex gap-3 !pl-[10px] w-full !pr-[10px]">
+                <IoCallOutline size={24} color="#CFCFCF" />
+                <input
+                  type="text"
+                  placeholder="Enter your Phone"
+                  className="!w-full border-none outline-none  !flex-1 text-[14px] !text-[#CFCFCF]"
+                />
+              </div>
+              <div className="bg-[var(--mid-blue-color)] h-full !py-[15px] !px-[30px] b2_semibold text-white cursor-pointer">
+                Submit
+              </div>
+            </div>
           </div>
           <div>
             <img src="/assets/images/card-image-1.png" alt="" />
