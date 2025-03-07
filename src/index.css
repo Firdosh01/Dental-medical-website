@@ -115,7 +115,6 @@ body {
 }
 .h3_semibold {
   font-size: 2.25rem;
-
   font-weight: 600;
   letter-spacing: 0%;
   line-height: 125%;
@@ -264,4 +263,24 @@ body {
   font-weight: 700;
   letter-spacing: 1.5%;
   line-height: 155%;
+}
+
+@media screen and (max-width: 640px) {
+  .max_width_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100% !important;
+  }
+  .h1_semibold {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0%;
+    line-height: 125%;
+  }
+  .h2_semibold {
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: 0%;
+    line-height: 125%;
+  }
 }

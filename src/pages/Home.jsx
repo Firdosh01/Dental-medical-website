@@ -14,21 +14,21 @@ import { IoCallOutline } from "react-icons/io5";
 const Home = () => {
   return (
     <div>
-      <Navbar navbarBgColor={"#e6f6fe"} />
+      {/* <Navbar navbarBgColor={"#e6f6fe"} /> */}
       <div className="max_width_container">
-        <div className="flex">
-          <div className="max-w-[787px] !pt-[116px]">
+        <div className="flex flex-wrap  sm:flex-nowrap sm:!mx-0 !mx-[20px] ">
+          <div className="sm:max-w-[787px] !pt-[116px]">
             <div className="h1_semibold text-[var(--dark-blue-color)] capitalize w-full">
               Get ready for your best ever Dental Experience!
             </div>
-            <div className="b1_regular">
+            <div className="b1_regular sm:!mt-[22px] !mt-[32px]">
               We use only the best quality materials on the market in order to
               provide the best products to our patients, So don’t worry about
               anything and book yourself.
             </div>
-            <div className="!mt-[40px] flex items-center gap-[22px]">
+            <div className="sm:!mt-[40px] !mt-[30px] flex items-center sm:gap-[22px] gap-[16px]">
               <div className="w-fit">
-                <Button>Book an appointment</Button>
+                <Button>Get Started</Button>
               </div>
               <div className="flex items-center gap-4">
                 <div className="w-[55px] h-[55px] flex justify-center items-center border-[1.5px] rounded-[10px] border-[var(--mid-blue-color)]">
@@ -47,24 +47,16 @@ const Home = () => {
               </div>
             </div>
           </div>
-
-          <div className="w[695px] h-auto w-full relative">
+          <div className="w[695px] md:h-auto md:w-full relative !mt-[53px] sm:!mt-[0px]">
             <img
               src="/assets/images/home-img-1.png"
               alt=""
               className="w-full h-full"
             />
-            {/* <div className="absolute top-0 left-[100px] right-0 w-full">
-              <img
-                src="/assets/images/home-img-dental-utils.png"
-                alt=""
-                className="w-full h-auto"
-              />
-            </div> */}
           </div>
         </div>
 
-        <div className="bg-[var(--light-blue-color)] !py-10 !px-8 rounded-xl flex justify-between items-center">
+        <div className="bg-[var(--light-blue-color)] !py-10 !px-8 rounded-xl flex justify-between items-center sm:flex-row flex-col !gap-y-[20px]">
           <div className="w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
             <div className="w-[70px] h-[70px] bg-[var(--sky-blue-color)] rounded-full flex justify-center items-center">
               <img
@@ -133,9 +125,9 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-[164px] justify-center !mt-[100px]">
-          <div className="max-w-[533px] flex flex-col gap-[40px]">
-            <div className="flex flex-col gap-[20px]">
+        <div className="flex items-center sm:gap-[164px] gap-[80px] justify-center !mt-[100px] sm:flex-row flex-col sm:!mx-0 !mx-[20px]">
+          <div className="sm:max-w-[533px] w-full flex flex-col sm:gap-[40px] gap-[30px]">
+            <div className="flex flex-col sm:gap-[20px] gap-[17px">
               <div className="h2_semibold text-[var(--dark-blue-color)] capitalize">
                 <div className="flex gap-3">
                   {" "}
@@ -156,7 +148,7 @@ const Home = () => {
                 anything and book yourself.
               </div>
             </div>
-            <div className="border border-[#CECECE] rounded-[10px] flex w-[442px] justify-between items-center overflow-hidden ">
+            <div className="border border-[#CECECE] rounded-[10px] flex sm:w-[442px] justify-between items-center overflow-hidden ">
               <div className="flex gap-3 !pl-[10px] w-full !pr-[10px]">
                 <IoCallOutline size={24} color="#CFCFCF" />
                 <input
@@ -175,8 +167,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="!mt-[121px] bg-[var(--light-blue-color)] h-[554px] flex justify-center items-center">
-          <div className="flex items-center gap-[128px] justify-center">
+        <div className="sm:!mt-[121px] !mt-[71px] bg-[var(--light-blue-color)] sm:h-[554px] flex justify-center items-center !py-12">
+          <div className="flex items-center sm:gap-[128px] gap-[52px] justify-center sm:flex-row flex-col-reverse sm:!mx-0 !mx-[20px]">
             <div>
               <img src="/assets/images/card-img-2.png" alt="" />
             </div>
@@ -239,8 +231,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-[164px] justify-center !mt-[135px]">
-          <div className="max-w-[533px] flex flex-col gap-[40px]">
+        <div className="flex items-center sm:gap-[164px] gap-[50px] justify-center sm:!mt-[135px] !mt-[100px] sm:!mx-0 !mx-[20px] sm:flex-row flex-col">
+          <div className="sm:max-w-[533px] flex flex-col sm:gap-[40px] gap-[30px] w-full">
             <div className="flex flex-col gap-[20px]">
               <div className="h2_semibold text-[var(--dark-blue-color)] capitalize">
                 <div>Leave your worries at the door and enjoy a healthier,</div>
@@ -276,42 +268,41 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="!mt-[100px]">
-          <div className="flex flex-col justify-center items-center gap-[40px]">
-            <div className="flex flex-col gap-[20px] max-w-[629px] justify-center items-center">
-              <div className="h2_semibold text-[var(--dark-blue-color)] capitalize text-center">
-                <div className="flex gap-3">
-                  {" "}
-                  We’re
-                  <div className="relative !z-[999]">
-                    welcoming
-                    <div className="absolute top-[-37px] left-0 !z-[9]">
-                      <img
-                        src="/assets/logos/welcoming-underline.png"
-                        alt=""
-                        className="w-[276px]"
-                      />
-                    </div>
+        <div className="flex flex-col justify-center items-center gap-[40px] !mt-[100px] sm:!mx-0 !mx-[20px] ">
+          <div className="flex flex-col gap-[20px] sm:max-w-[629px] w-full sm:justify-center sm:items-center items-start">
+            <div className="h2_semibold text-[var(--dark-blue-color)] capitalize sm:text-center">
+              <div className="flex gap-3">
+                {" "}
+                We’re
+                <div className="relative !z-[999]">
+                  welcoming
+                  <div className="absolute top-[-37px] left-0 !z-[9]">
+                    <img
+                      src="/assets/logos/welcoming-underline.png"
+                      alt=""
+                      className="w-[276px]"
+                    />
                   </div>
-                  new patients
                 </div>
-                <div>and can’t wait to meet you.</div>
+                new patients
               </div>
-              <div className="b1_regular text-[var(--body-text-color)] text-center max-w-[463px]">
-                We use only the best quality materials on the market in order to
-                provide the best products to our patients.
-              </div>
+              <div>and can’t wait to meet you.</div>
             </div>
+            <div className="b1_regular text-[var(--body-text-color)] sm:text-center sm:max-w-[463px] w-full">
+              We use only the best quality materials on the market in order to
+              provide the best products to our patients.
+            </div>
+          </div>
 
-            <div>
-              <img src="/assets/images/video-img-1.png" alt="" />
-            </div>
-            <div className="w-fit">
-              <Button>Watch Playlist</Button>
-            </div>
+          <div>
+            <img src="/assets/images/video-img-1.png" alt="" />
+          </div>
+          <div className="w-fit">
+            <Button>Watch Playlist</Button>
           </div>
         </div>
       </div>
+
       {/* Meet our specialists section start */}
       <OurSpecialists />
       {/* Meet our specialists section end */}
@@ -352,10 +343,10 @@ const Home = () => {
       <FrequentlyAskQues />
       {/* Frequently Ask Question section end */}
 
-      <div className="!my-[110px] max_width_container">
-        <div className="flex justify-center items-center">
-          <div className="bg-[var(--dark-blue-color)] flex justify-between items-center gap-[80px] !px-12 !w-[1064px] !h-[392px] rounded-[10px]">
-            <div className="w-[582px]">
+      <div className="!my-[110px] max_width_container ">
+        <div className="flex justify-center items-center ">
+          <div className="bg-[var(--dark-blue-color)] flex justify-between items-center gap-[80px] sm:!px-12 !w-[1064px] sm:!h-[392px] sm:rounded-[10px] sm:flex-row flex-col !py-12 ">
+            <div className="sm:w-[582px] w-full">
               <div className="h2_semibold text-[var(--secondary-white-color)] capitalize">
                 Dental Website that&apos;s gonna shake the game rules up.
               </div>
