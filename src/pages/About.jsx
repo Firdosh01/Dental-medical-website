@@ -9,7 +9,7 @@ const About = () => {
         background: "var(--linear-gradient-3)",
       }}
     >
-      <Navbar navbarBgColor={"#ffffff"} />
+      {/* <Navbar navbarBgColor={"#ffffff"} /> */}
       <div className="max_width_container !mt-[90px]">
         <div className="h1_semibold text-[var(--dark-blue-color)] capitalize flex justify-center items-center">
           <div className="flex gap-3">
@@ -25,8 +25,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="!mt-[70px] flex gap-[70px]  justify-end">
-          <div className="!w-[649px]">
+        <div className="!mt-[70px] flex gap-[70px]  justify-end sm:flex-row flex-col sm:!px-[0px] !px-[20px]">
+          <div className="sm:!w-[649px]">
             <div className="h2_semibold text-[var(--dark-blue-color)]">
               Our Mission
             </div>
@@ -61,10 +61,10 @@ const About = () => {
             <img src="/assets/images/about/about-img.png" alt="" />
           </div>
         </div>
-        <div className="!mt-[100px]">
-          <div className="flex justify-center items-center flex-col ">
+        <div className="!mt-[100px] sm:!mx-[0px] !mx-[20px]">
+          <div className="flex sm:justify-center sm:items-center flex-col ">
             <div className="flex flex-col gap-[20px] max-w-[479px]">
-              <div className="h2_semibold text-[var(--dark-blue-color)] text-center">
+              <div className="h2_semibold text-[var(--dark-blue-color)] sm:text-center">
                 <div className="flex gap-3 justify-center items-center">
                   {" "}
                   Meet Our
@@ -80,14 +80,14 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="text-[var(--body-text-color)] b1_regular text-center">
+              <div className="text-[var(--body-text-color)] b1_regular sm:text-center">
                 We use only the best quality materials on the market in order to
                 provide the best products to our patients.
               </div>
             </div>
           </div>
           <div className="flex flex-col !mt-[50px] gap-[50px]">
-            <div className="flex gap-[30px] justify-center items-center">
+            <div className="flex gap-[30px] justify-center items-center sm:flex-row flex-col">
               <div className="">
                 <img
                   src="/assets/images/about/specialist-img-1.png"
@@ -96,7 +96,7 @@ const About = () => {
                 />
               </div>
               <div className="max-w-[729px]">
-                <div className="flex items-center gap-[12px]">
+                <div className="flex sm:items-center gap-[12px] sm:flex-row flex-col">
                   <div className="h4_semibold text-[var(--dark-blue-color)]">
                     DR. Brent
                   </div>
@@ -114,12 +114,12 @@ const About = () => {
                   grew up in Massachusetts with a mother who worked as a
                   hygienist and a grandfather who was a general dentist.
                 </div>
-                <div className="w-fit">
+                <div className="sm:w-fit flex justify-center">
                   <Button>Book an appointment</Button>
                 </div>
               </div>
             </div>
-            <div className="flex gap-[30px] justify-center items-center">
+            <div className="flex gap-[30px] justify-center items-center sm:flex-row flex-col">
               <div className="">
                 <img
                   src="/assets/images/about/specialist-img-2.png"
@@ -128,7 +128,7 @@ const About = () => {
                 />
               </div>
               <div className="max-w-[729px]">
-                <div className="flex items-center gap-[12px]">
+                <div className="flex sm:items-center gap-[12px] sm:flex-row flex-col">
                   <div className="h4_semibold text-[var(--dark-blue-color)]">
                     DR. Ashish J. Vashi
                   </div>
@@ -145,12 +145,12 @@ const About = () => {
                   veneers, crowns, bridges, dental implants, wisdom teeth
                   extractions, Invisalign, and dentures.
                 </div>
-                <div className="w-fit">
+                <div className="sm:w-fit flex justify-center">
                   <Button>Book an appointment</Button>
                 </div>
               </div>
             </div>
-            <div className="flex gap-[30px] justify-center items-center">
+            <div className="flex gap-[30px] justify-center items-center sm:flex-row flex-col">
               <div className="">
                 <img
                   src="/assets/images/about/specialist-img-3.png"
@@ -159,7 +159,7 @@ const About = () => {
                 />
               </div>
               <div className="max-w-[729px]">
-                <div className="flex items-center gap-[12px]">
+                <div className="flex sm:items-center sm:flex-row flex-col gap-[12px]">
                   <div className="h4_semibold text-[var(--dark-blue-color)]">
                     Dr. James Connors
                   </div>
@@ -177,18 +177,18 @@ const About = () => {
                   mother who worked as a hygienist and a grandfather who was a
                   general dentist.
                 </div>
-                <div className="w-fit">
+                <div className="sm:w-fit flex justify-center">
                   <Button>Book an appointment</Button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="!mt-[118px]">
-          <div className="flex justify-center items-center flex-col ">
+        <div className="!mt-[118px] ">
+          <div className="flex sm:justify-center sm:items-center flex-col sm:!mx-[0px] !mx-[20px]">
             <div className="flex flex-col gap-[20px] max-w-[592px]">
-              <div className="h2_semibold text-[var(--dark-blue-color)] text-center">
-                <div className="flex gap-3 justify-center items-center">
+              <div className="h2_semibold text-[var(--dark-blue-color)] sm:text-center">
+                <div className="flex gap-3 sm:justify-center items-center">
                   Latest
                   <div className="relative !z-[999]">
                     Technology
@@ -202,14 +202,14 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="text-[var(--body-text-color)] b1_regular text-center">
+              <div className="text-[var(--body-text-color)] b1_regular sm:text-center">
                 Thanks to major technological advancements, dentistry allows
                 treating the most complex cases with less time and more
                 efficiency.
               </div>
             </div>
           </div>
-          <div className="flex gap-[20px] justify-between !mt-[70px]">
+          <div className="flex sm:gap-[20px] gap-[40px] justify-between !mt-[70px] sm:flex-row flex-col sm:!mx-[0px] !mx-[20px]">
             <div>
               <img
                 src="/assets/images/about/technology-img-1.png"
@@ -240,8 +240,8 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[var(--dark-blue-color)] !py-10 !px-8 rounded-xl flex justify-between items-center !mt-[132px]">
-            <div className="w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
+          <div className="bg-[var(--dark-blue-color)] !py-10 !px-8 sm:rounded-xl flex justify-between items-center !mt-[132px] sm:flex-row flex-col gap-y-[20px]">
+            <div className="sm:w-[387px] w-full h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
               <div className="w-[70px] h-[70px] bg-[var(--sky-blue-color)] rounded-full flex justify-center items-center">
                 <img
                   src="/assets/logos/teeth-1.png"
@@ -263,7 +263,7 @@ const About = () => {
                 <IoIosArrowDropright size={22} />
               </div>
             </div>
-            <div className="w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
+            <div className="sm:w-[387px] w-full h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
               <div className="w-[70px] h-[70px] bg-[var(--sky-blue-color)] rounded-full flex justify-center items-center">
                 <img
                   src="/assets/logos/teeth-1.png"
@@ -285,7 +285,7 @@ const About = () => {
                 <IoIosArrowDropright size={22} />
               </div>
             </div>
-            <div className="w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
+            <div className="sm:w-[387px] w-full h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
               <div className="w-[70px] h-[70px] bg-[var(--sky-blue-color)] rounded-full flex justify-center items-center">
                 <img
                   src="/assets/logos/teeth-1.png"
@@ -309,7 +309,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="!my-[100px]">
+          <div className="!my-[100px]  sm:!mx-[0px] !mx-[20px]">
             <div className="flex flex-col justify-center items-center gap-[40px]">
               <div className="flex flex-col gap-[20px] max-w-[629px] justify-center items-center">
                 <div className="h2_semibold text-[var(--dark-blue-color)] capitalize text-center">
