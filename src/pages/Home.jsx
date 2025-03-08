@@ -174,7 +174,7 @@ const Home = () => {
             </div>
             <div className="max-w-[533px] flex flex-col gap-[20px]">
               <div className="flex flex-col gap-[20px]">
-                <div className="h2_semibold text-[var(--dark-blue-color)] capitalize">
+                <div className="h2_semibold text-[var(--dark-blue-color)] capitalize sm:block hidden">
                   <div className="flex gap-3">
                     {" "}
                     Why choose
@@ -187,6 +187,22 @@ const Home = () => {
                     for all
                   </div>
                   <div>your dental treatments?</div>
+                </div>
+                <div className="h2_semibold text-[var(--dark-blue-color)] capitalize sm:hidden block">
+                  <div className="flex gap-3">
+                    {" "}
+                    Why choose
+                    <div className="relative !z-[999]">
+                      Smile
+                      <div className="absolute top-[5px] left-0 !z-[9]">
+                        <img
+                          src="/assets/logos/welcoming-underline.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div>for all your dental treatments?</div>
                 </div>
                 <div className="b1_regular text-[var(--body-text-color)]">
                   We use only the best quality materials on the market in order
@@ -268,7 +284,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center gap-[40px] !mt-[100px] sm:!mx-0 !mx-[20px] ">
+        {/* <div className="flex flex-col justify-center items-center gap-[40px] !mt-[100px] sm:!mx-0 !mx-[20px] ">
           <div className="flex flex-col gap-[20px] sm:max-w-[629px] w-full sm:justify-center sm:items-center items-start">
             <div className="h2_semibold text-[var(--dark-blue-color)] capitalize sm:text-center">
               <div className="flex gap-3">
@@ -300,17 +316,17 @@ const Home = () => {
           <div className="w-fit">
             <Button>Watch Playlist</Button>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Meet our specialists section start */}
-      <OurSpecialists />
+      {/* <OurSpecialists /> */}
       {/* Meet our specialists section end */}
       {/* our client review section start */}
       <OurClientReview />
       {/* our client review section end */}
       {/* article section start */}
-      <div className="!mt-[100px]  flex flex-col !pt-[0px] max_width_container">
+      <div className="!mt-[100px]  flex flex-col !pt-[0px] max_width_container sm:!px-[0px] !px-[20px]">
         <div className="flex justify-between items-end">
           <div className="flex flex-col gap-[20px] w-[455px]">
             <div className="relative !z-[999] h2_semibold text-[var(--dark-blue-color)]">
@@ -329,7 +345,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="w-fit">
+          <div className="w-fit sm:block hidden">
             <Button>View All</Button>
           </div>
         </div>
@@ -345,7 +361,7 @@ const Home = () => {
 
       <div className="!my-[110px] max_width_container ">
         <div className="flex justify-center items-center ">
-          <div className="bg-[var(--dark-blue-color)] flex justify-between items-center gap-[80px] sm:!px-12 !w-[1064px] sm:!h-[392px] sm:rounded-[10px] sm:flex-row flex-col !py-12 ">
+          <div className="bg-[var(--dark-blue-color)] flex justify-between items-center gap-[80px] sm:!px-12 !w-[1064px] sm:!h-[392px] sm:rounded-[10px] sm:flex-row flex-col !py-12 !px-[20px]">
             <div className="sm:w-[582px] w-full">
               <div className="h2_semibold text-[var(--secondary-white-color)] capitalize">
                 Dental Website that&apos;s gonna shake the game rules up.
@@ -358,7 +374,7 @@ const Home = () => {
                 <Button>Learn More</Button>
               </div>
             </div>
-            <div className="w-[305px] h-[292px]">
+            <div className="sm:w-[305px] sm:h-[292px] w-full">
               <img
                 src="/assets/images/article-img-2.png"
                 alt=""

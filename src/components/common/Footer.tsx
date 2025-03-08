@@ -8,12 +8,12 @@ import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="max_width_container">
+    <div className="max_width_container !sm:px-[0px] !px-[20px]">
       <div className="flex justify-between items-center">
         <div>
           <img src="/assets/logos/logo.png" alt="" />
         </div>
-        <div>
+        <div className="sm:block hidden">
           <ul className="flex gap-[38px] navigation_links">
             <li>
               <NavLink
@@ -60,8 +60,8 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="!mt-[50px] w-full h-[2px] bg-[var(--dark-blue-color)]"></div>
-      <div className="flex justify-between items-center !my-[37px]">
+      <div className="sm:!mt-[50px] !mt-[30px] w-full h-[2px] bg-[var(--dark-blue-color)]"></div>
+      <div className="flex justify-between sm:flex-row flex-col sm:items-center !my-[37px] sm:gap-[0px] gap-5">
         <div className="b3_regular text-[var(--dark-blue-color)]">
           All rights reserved ® uifry.com | Terms and conditions apply!
         </div>

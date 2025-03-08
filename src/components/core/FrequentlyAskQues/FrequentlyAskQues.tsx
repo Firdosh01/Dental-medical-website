@@ -10,19 +10,19 @@ const FrequentlyAskQues = () => {
   };
 
   return (
-    <div className="!mt-[100px] max_width_container">
+    <div className="!mt-[100px] max_width_container !px-[20px]">
       <div className="flex flex-col gap-[20px] justify-center items-center">
         <div className="relative !z-[999] h2_semibold text-[var(--dark-blue-color)] !select-none">
           Frequently Ask Question
-          <div className="absolute top-[-125px] left-0 !z-[9]">
+          <div className="absolute sm:top-[-125px] top-[-40px] left-0 !z-[9]">
             <img
               src="/assets/logos/welcoming-underline.png"
               alt=""
-              className="w-[600px]"
+              className="sm:w-[600px]"
             />
           </div>
         </div>
-        <div className="text-[var(--body-text-color)] b1_regular max-w-[455px] text-center">
+        <div className="text-[var(--body-text-color)] b1_regular max-w-[455px] sm:text-center">
           We use only the best quality materials on the market in order to
           provide the best products to our patients.
         </div>

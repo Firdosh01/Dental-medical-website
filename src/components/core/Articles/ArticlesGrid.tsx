@@ -5,12 +5,12 @@ import Button from "../../common/Button";
 const ArticlesGrid = () => {
   return (
     <div>
-      <div className="grid grid-cols-4 gap-y-[30px] gap-x-[20px]">
+      <div className="grid sm:grid-cols-4 grid-cols-1 gap-y-[30px] gap-x-[20px] place-items-center">
         {newsAndArticles.map((article) => {
           return (
-            <div className="bg-[var(--light-blue-color)] !p-[20px] rounded-[10px]">
+            <div className="bg-[var(--light-blue-color)] !p-[20px] rounded-[10px] sm:w-full max-w-fit">
               <div>
-                <img src={article.src} alt="" />
+                <img src={article.src} alt="" className="w-full"/>
               </div>
               <div className="!mt-[22px] !w-[97px] !bg-[var(--dark-blue-color)] b2_medium text-[var(--secondary-white-color)] rounded-[5px] !h-[35px] flex justify-center items-center">
                 Self Care

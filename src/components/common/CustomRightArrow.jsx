@@ -6,7 +6,7 @@ const CustomRightArrow = ({ onClick, BgColor, IconColor }) => {
     <button
       onClick={onClick}
       style={{ backgroundColor: BgColor }}
-      className={`absolute bottom-[5px] right-1/2 transform translate-x-[-55%] !px-5 cursor-pointer`}
+      className={`absolute bottom-[5px] sm:right-1/2 right-[45%]  transform translate-x-[-55%] !px-5 cursor-pointer`}
     >
       <BsArrowRight size={40} color={`${IconColor}`} />
     </button>

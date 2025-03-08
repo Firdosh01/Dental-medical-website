@@ -25,7 +25,7 @@ const OurClientReview = () => {
     },
   };
   return (
-    <div className="!mt-[100px]  flex flex-col !py-[50px]">
+    <div className="!mt-[100px]  flex flex-col !py-[50px] sm:mx-[0px] !mx-[20px]">
       <div className="flex justify-center items-center flex-col max_width_container">
         <div className="flex flex-col gap-[20px] max-w-[479px]">
           <div className="h2_semibold text-[var(--dark-blue-color)] text-center">
@@ -50,65 +50,63 @@ const OurClientReview = () => {
           </div>
         </div>
       </div>
-      <div className="!ml-[80px] !mt-[80px]">
-        <div>
-          <Carousel
-            swipeable={false}
-            draggable={false}
-            showDots={false}
-            responsive={clientReview}
-            ssr={true}
-            infinite={true}
-            // autoPlay={true}
-            // autoPlaySpeed={1000}
-            keyBoardControl={true}
-            // customTrnsition="all .5"
-            transitionDuration={2000}
-            containerClass="carousel-container"
-            removeArrowOnDeviceType={["tablet", "mobile"]}
-            customRightArrow={
-              <CustomRightArrow BgColor={"#011632"} IconColor={"#fff"} />
-            }
-            customLeftArrow={
-              <CustomLeftArrow BgColor={"#011632"} IconColor={"#fff"} />
-            }
-            // dotListClass="custom-dot-list-style"
-            className="!pb-[100px]"
-            itemClass="!mx-2"
-          >
-            {ourClientReview.map((val, index) => {
-              return (
-                <div
-                  key={index}
-                  className="relative !max-w-[413px]  bg-white shadow-[0px_2px_10px_0px_rgba(0,0,0,0.12)] rounded-[10px] !p-6 !my-2"
-                >
-                  <div className="flex flex-col gap-[15px]">
-                    <div className="flex items-center gap-[8px]">
-                      <div>
-                        <img src={val.src} alt="" />
-                      </div>
-                      <div className="flex flex-col gap-[5px]">
-                        <div className="text-[var(--body-text-color)] text-[24px] tracking-[2%] leading-[155%] font-medium">
-                          {val.name}
-                        </div>
-                        <div className="flex">
-                          <ImStarFull size={20} fill="var(--warning-color)" />
-                          <ImStarFull size={20} fill="var(--warning-color)" />
-                          <ImStarFull size={20} fill="var(--warning-color)" />
-                          <ImStarFull size={20} fill="var(--warning-color)" />
-                          <ImStarFull size={20} fill="var(--warning-color)" />
-                        </div>
-                      </div>
+      <div className="sm:!ml-[80px] !mt-[80px]">
+        <Carousel
+          swipeable={false}
+          draggable={false}
+          showDots={false}
+          responsive={clientReview}
+          ssr={true}
+          infinite={true}
+          // autoPlay={true}
+          // autoPlaySpeed={1000}
+          keyBoardControl={true}
+          // customTrnsition="all .5"
+          transitionDuration={2000}
+          containerClass="carousel-container"
+          // removeArrowOnDeviceType={["tablet", "mobile"]}
+          customRightArrow={
+            <CustomRightArrow BgColor={"#011632"} IconColor={"#fff"} />
+          }
+          customLeftArrow={
+            <CustomLeftArrow BgColor={"#011632"} IconColor={"#fff"} />
+          }
+          // dotListClass="custom-dot-list-style"
+          className="!pb-[100px]"
+          itemClass="!mx-2"
+        >
+          {ourClientReview.map((val, index) => {
+            return (
+              <div
+                key={index}
+                className="relative !max-w-[413px]  bg-white shadow-[0px_2px_10px_0px_rgba(0,0,0,0.12)] rounded-[10px] !p-6 !my-2"
+              >
+                <div className="flex flex-col gap-[15px]">
+                  <div className="flex items-center gap-[8px]">
+                    <div>
+                      <img src={val.src} alt="" />
                     </div>
-                    <div className="b2_regular text-[var(--body-text-color)]">
-                      {val.review}
+                    <div className="flex flex-col gap-[5px]">
+                      <div className="text-[var(--body-text-color)] text-[24px] tracking-[2%] leading-[155%] font-medium">
+                        {val.name}
+                      </div>
+                      <div className="flex">
+                        <ImStarFull size={20} fill="var(--warning-color)" />
+                        <ImStarFull size={20} fill="var(--warning-color)" />
+                        <ImStarFull size={20} fill="var(--warning-color)" />
+                        <ImStarFull size={20} fill="var(--warning-color)" />
+                        <ImStarFull size={20} fill="var(--warning-color)" />
+                      </div>
                     </div>
                   </div>
+                  <div className="b2_regular text-[var(--body-text-color)]">
+                    {val.review}
+                  </div>
                 </div>
-              );
-            })}
-          </Carousel>
-        </div>
+              </div>
+            );
+          })}
+        </Carousel>
       </div>
     </div>
   );

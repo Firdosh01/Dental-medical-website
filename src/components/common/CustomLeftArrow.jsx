@@ -6,7 +6,7 @@ const CustomLeftArrow = ({ onClick, BgColor, IconColor }) => {
     <button
       onClick={onClick}
       style={{ backgroundColor: BgColor }}
-      className={`absolute bottom-[5px] left-1/2 transform translate-x-[-45%] !px-5 cursor-pointer`}
+      className={`absolute bottom-[5px] sm:left-1/2 left-[60%] transform translate-x-[-45%] !px-5 cursor-pointer`}
     >
       <BsArrowLeft size={40} color={`${IconColor}`} />
     </button>
