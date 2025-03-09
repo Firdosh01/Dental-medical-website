@@ -25,7 +25,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="!mt-[70px] flex gap-[70px]  justify-end lg:flex-row flex-col xl:!px-[0px] !px-[20px]">
+        <div className="!mt-[70px] flex gap-[70px]  justify-end lg:flex-row flex-col 2xl:!px-[0px] !px-[20px]">
           <div className="lg:!w-[649px]">
             <div className="h2_semibold text-[var(--dark-blue-color)]">
               Our Mission
@@ -185,7 +185,7 @@ const About = () => {
           </div>
         </div>
         <div className="!mt-[118px] ">
-          <div className="flex sm:justify-center sm:items-center flex-col xl:!mx-[0px] !xl-[20px]">
+          <div className="flex sm:justify-center sm:items-center flex-col 2xl:!mx-[0px] !mx-[20px]">
             <div className="flex flex-col gap-[20px] max-w-[592px]">
               <div className="h2_semibold text-[var(--dark-blue-color)] sm:text-center">
                 <div className="flex gap-3 sm:justify-center items-center">
@@ -209,7 +209,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="flex sm:gap-[20px] gap-[40px] justify-between !mt-[70px] sm:flex-row flex-col xl:!mx-[0px] !mx-[20px]">
+          <div className="flex sm:gap-[20px] gap-[40px] justify-between !mt-[70px] sm:flex-row flex-col 2xl:!mx-[0px] !mx-[20px]">
             <div>
               <img
                 src="/assets/images/about/technology-img-1.png"
@@ -240,7 +240,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[var(--dark-blue-color)] !py-10 !px-8 xl:rounded-xl grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lace-items-center !mt-[132px]  gap-y-[20px] gap-x-[20px]">
+          <div className="bg-[var(--dark-blue-color)] !py-10 sm:!px-8 !px-[20px] 2xl:rounded-xl grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lace-items-center !mt-[132px]  gap-y-[20px] xl:!gap-x-[20px] gap-x-[10px]">
             <div className="xl:w-[387px] w-full h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
               <div className="w-[70px] h-[70px] bg-[var(--sky-blue-color)] rounded-full flex justify-center items-center">
                 <img

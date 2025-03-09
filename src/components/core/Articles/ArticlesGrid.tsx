@@ -5,7 +5,7 @@ import Button from "../../common/Button";
 const ArticlesGrid = () => {
   return (
     <div>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-[30px] gap-x-[20px] place-items-center">
+      <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-[30px] gap-x-[20px] place-items-center">
         {newsAndArticles.map((article) => {
           return (
             <div className="bg-[var(--light-blue-color)] !p-[20px] rounded-[10px] sm:w-full max-w-fit">

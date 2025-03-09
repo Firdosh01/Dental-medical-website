@@ -16,8 +16,8 @@ const Home = () => {
     <div>
       <Navbar navbarBgColor={"#e6f6fe"} />
       <div className="max_width_container">
-        <div className="flex flex-wrap  lg:flex-nowrap xl:!mx-0 !mx-[20px] ">
-          <div className="sm:max-w-[787px] !pt-[116px]">
+        <div className="flex flex-wrap  lg:flex-nowrap 2xl:!mx-0 !mx-[20px] lg:!pt-[50px]">
+          <div className="sm:max-w-[787px] lg:!pt-[116px] !pt-[68px] !pb-5">
             <div className="h1_semibold text-[var(--dark-blue-color)] capitalize w-full">
               Get ready for your best ever Dental Experience!
             </div>
@@ -56,7 +56,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="bg-[var(--light-blue-color)] !py-10 !px-8 rounded-xl grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lace-items-center !gap-y-[20px]  !gap-x-[20px]">
+        <div className="bg-[var(--light-blue-color)] !py-10 sm:!px-8 !px-[20px] xl:rounded-xl grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lace-items-center !gap-y-[20px]  xl:!gap-x-[20px] gap-x-[10px]">
           <div className="max-w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
             <div className="w-[70px] h-[70px] bg-[var(--sky-blue-color)] rounded-full flex justify-center items-center">
               <img
@@ -128,25 +128,7 @@ const Home = () => {
         <div className="flex items-center lg:gap-[164px] sm:gap-[20px] gap-[80px] justify-center !mt-[100px] md:flex-row flex-col xl:!mx-0 !mx-[20px]">
           <div className="md:max-w-[533px] w-full flex flex-col sm:gap-[40px] gap-[30px]">
             <div className="flex flex-col sm:gap-[20px] gap-[17px">
-              <div className="h2_semibold text-[var(--dark-blue-color)] capitalize text-center md:block hidden">
-                <div className="flex gap-3">
-                  {" "}
-                  We’re
-                  <div className="relative !z-[999]">
-                    welcoming
-                    <div className="absolute top-[-37px] left-0 !z-[9]">
-                      <img
-                        src="/assets/logos/welcoming-underline.png"
-                        alt=""
-                        className="w-[276px]"
-                      />
-                    </div>
-                  </div>
-                  new patients
-                </div>
-                <div>and can’t wait to meet you.</div>
-              </div>
-              <div className="h2_semibold text-[var(--dark-blue-color)] capitalize md:hidden block">
+              <div className="h2_semibold text-[var(--dark-blue-color)] capitalize ">
                 <div className="flex gap-3">
                   {" "}
                   We’re
@@ -360,7 +342,7 @@ const Home = () => {
       <OurClientReview />
       {/* our client review section end */}
       {/* article section start */}
-      <div className="!mt-[100px]  flex flex-col !pt-[0px] max_width_container xl:!px-[0px] !px-[20px]">
+      <div className="!mt-[100px]  flex flex-col !pt-[0px] max_width_container 2xl:!px-[0px] !px-[20px]">
         <div className="flex justify-between items-end">
           <div className="flex flex-col gap-[20px] w-[455px]">
             <div className="relative !z-[999] h2_semibold text-[var(--dark-blue-color)]">

@@ -12,7 +12,7 @@ const Services = () => {
       }}
     >
       <Navbar navbarBgColor={"#ffffff"} />
-      <div className="max_width_container !mt-[90px] xl:!px-[0px] !px-[20px] ">
+      <div className="max_width_container !mt-[90px] 2xl:!px-[0px] !px-[20px] ">
         <div className="flex flex-col gap-[20px] sm:justify-center  sm:items-center">
           <div className="h1_semibold text-[var(--dark-blue-color)] capitalize flex sm:justify-center sm:items-center">
             <div className="flex gap-3">
@@ -34,7 +34,7 @@ const Services = () => {
           </div>
         </div>
         <div className="!my-[80px]">
-          <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lace-items-center  gap-y-[40px] gap-x-[20px]">
+          <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lace-items-center  gap-y-[40px] xl:!gap-x-[20px] gap-x-[10px]">
             <div className="xl:w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
               <div className="w-[70px] h-[70px] bg-[var(--sky-blue-color)] rounded-full flex justify-center items-center">
                 <img
@@ -292,7 +292,6 @@ const Services = () => {
       <FrequentlyAskQues />
       {/* Frequently Ask Question section end */}
 
-
       <div className="!my-[110px] max_width_container">
         <div className="flex justify-center items-center ">
           <div className="bg-[var(--dark-blue-color)] flex justify-between items-center gap-[80px] lg:!px-12 !w-[1064px] sm:!h-[392px] lg:rounded-[10px] sm:flex-row flex-col !py-12 !px-[20px]">
@@ -318,7 +317,6 @@ const Services = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };

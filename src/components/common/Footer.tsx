@@ -8,7 +8,7 @@ import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="max_width_container !sm:px-[0px] !px-[20px]">
+    <div className="max_width_container 2xl:!px-[0px] !px-[20px]">
       <div className="flex justify-between items-center">
         <div>
           <img src="/assets/logos/logo.png" alt="" />

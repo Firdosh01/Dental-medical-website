@@ -70,19 +70,22 @@
 
     & .nav-container {
       position: absolute;
-      top: 70px;
+      top: 100px;
       left: 0;
       right: 0;
       background-color: var(--light-blue-color);
-      border-radius: 0 0 10px 10px;
+      border: 1.5px solid var(--mid-blue-color);
+      border-radius: 10px;
       max-height: 0;
       overflow: hidden;
       padding: 0;
-      z-index: 99;
+      z-index: 9999;
+      visibility: hidden;
 
       &.open {
         max-height: 300px;
         padding: 20px;
+        visibility:visible;
       }
 
       & .navigation_links {

@@ -13,6 +13,11 @@ const OurSpecialists = () => {
       items: 4.1,
       slidesToSlide: 1,
     },
+    largeTablet: {
+      breakpoint: { max: 1280, min: 1024 },
+      items: 3.5,
+      slidesToSlide: 1,
+    },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 2.2,
@@ -24,6 +29,7 @@ const OurSpecialists = () => {
       slidesToSlide: 1,
     },
   };
+
 
   return (
     <div className="!mt-[120px] bg-[var(--light-blue-color)]  min-h-[753px] flex flex-col !py-[50px]">
@@ -52,7 +58,7 @@ const OurSpecialists = () => {
           </div>
         </div>
       </div>
-      <div className="bg-red900 !md:ml-[80px] !mt-[80px]">
+      <div className="bg-red900 !md:ml-[80px] !mt-[80px] sm:!px-[0px] !px-[20px]">
         <div>
           <Carousel
             swipeable={false}

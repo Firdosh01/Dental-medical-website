@@ -13,8 +13,13 @@ const OurClientReview = () => {
       items: 3.7,
       slidesToSlide: 1,
     },
+    largeTablet: {
+      breakpoint: { max: 1024, min: 821 },
+      items: 3,
+      slidesToSlide: 1,
+    },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 820, min: 464 },
       items: 2,
       slidesToSlide: 1,
     },
