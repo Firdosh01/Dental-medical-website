@@ -15,8 +15,8 @@ const OurSpecialists = () => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 2,
+      items: 2.2,
+      slidesToSlide: 1,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -27,7 +27,7 @@ const OurSpecialists = () => {
 
   return (
     <div className="!mt-[120px] bg-[var(--light-blue-color)]  min-h-[753px] flex flex-col !py-[50px]">
-      <div className="flex justify-center items-center flex-col max_width_container">
+      <div className="flex justify-center items-center flex-col max_width_container sm:px-[0px] !px-[20px]">
         <div className="flex flex-col gap-[20px] max-w-[479px]">
           <div className="h2_semibold text-[var(--dark-blue-color)] text-center">
             {/* Meet our  */}
@@ -52,7 +52,7 @@ const OurSpecialists = () => {
           </div>
         </div>
       </div>
-      <div className="bg-red900 !ml-[80px] !mt-[80px]">
+      <div className="bg-red900 !md:ml-[80px] !mt-[80px]">
         <div>
           <Carousel
             swipeable={false}
@@ -67,7 +67,7 @@ const OurSpecialists = () => {
             customTrnsition="all .5"
             transitionDuration={2000}
             containerClass="carousel-container"
-            removeArrowOnDeviceType={["tablet", "mobile"]}
+            // removeArrowOnDeviceType={["tablet", "mobile"]}
             customRightArrow={
               <CustomRightArrow BgColor={"#fff"} IconColor={"#000"} />
             }
@@ -79,7 +79,7 @@ const OurSpecialists = () => {
           >
             {ourSpecialists.map((val, index) => {
               return (
-                <div key={index} className="relative !w-[305px]">
+                <div key={index} className="relative !max-w-[305px]">
                   <img src={val.src} alt="" />
                   <div className="absolute !top-3 !right-3">
                     <FaLinkedin size={30} />

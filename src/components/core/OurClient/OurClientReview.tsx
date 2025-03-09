@@ -16,7 +16,7 @@ const OurClientReview = () => {
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 2,
-      slidesToSlide: 2,
+      slidesToSlide: 1,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -79,7 +79,7 @@ const OurClientReview = () => {
             return (
               <div
                 key={index}
-                className="relative !max-w-[413px]  bg-white shadow-[0px_2px_10px_0px_rgba(0,0,0,0.12)] rounded-[10px] !p-6 !my-2"
+                className="relative  !max-w-[413px] bg-white shadow-[0px_2px_10px_0px_rgba(0,0,0,0.12)] rounded-[10px] !p-6 !my-2"
               >
                 <div className="flex flex-col gap-[15px]">
                   <div className="flex items-center gap-[8px]">

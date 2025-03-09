@@ -12,9 +12,9 @@ const Services = () => {
       }}
     >
       <Navbar navbarBgColor={"#ffffff"} />
-      <div className="max_width_container !mt-[90px]">
-        <div className="flex flex-col gap-[20px] justify-center  items-center">
-          <div className="h1_semibold text-[var(--dark-blue-color)] capitalize flex justify-center items-center">
+      <div className="max_width_container !mt-[90px] xl:!px-[0px] !px-[20px] ">
+        <div className="flex flex-col gap-[20px] sm:justify-center  sm:items-center">
+          <div className="h1_semibold text-[var(--dark-blue-color)] capitalize flex sm:justify-center sm:items-center">
             <div className="flex gap-3">
               <div className="relative !z-[999]">
                 Services
@@ -28,14 +28,14 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="b1_regular text-[var(--body-text-color)]  max-w-[526px] text-center">
+          <div className="b1_regular text-[var(--body-text-color)]  max-w-[526px] sm:text-center">
             We use only the best quality materials on the market in order to
             provide the best products to our patients.
           </div>
         </div>
         <div className="!my-[80px]">
-          <div className="grid grid-cols-3 items-center  gap-y-[40px]">
-            <div className="w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
+          <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lace-items-center  gap-y-[40px] gap-x-[20px]">
+            <div className="xl:w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
               <div className="w-[70px] h-[70px] bg-[var(--sky-blue-color)] rounded-full flex justify-center items-center">
                 <img
                   src="/assets/logos/teeth-1.png"
@@ -57,7 +57,7 @@ const Services = () => {
                 <IoIosArrowDropright size={22} />
               </div>
             </div>
-            <div className="w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
+            <div className="xl:w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
               <div className="w-[70px] h-[70px] bg-[var(--sky-blue-color)] rounded-full flex justify-center items-center">
                 <img
                   src="/assets/logos/teeth-1.png"
@@ -79,7 +79,7 @@ const Services = () => {
                 <IoIosArrowDropright size={22} />
               </div>
             </div>
-            <div className="w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
+            <div className="xl:w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
               <div className="w-[70px] h-[70px] bg-[var(--sky-blue-color)] rounded-full flex justify-center items-center">
                 <img
                   src="/assets/logos/teeth-1.png"
@@ -101,7 +101,7 @@ const Services = () => {
                 <IoIosArrowDropright size={22} />
               </div>
             </div>
-            <div className="w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
+            <div className="xl:w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
               <div className="w-[70px] h-[70px] bg-[var(--sky-blue-color)] rounded-full flex justify-center items-center">
                 <img
                   src="/assets/logos/teeth-1.png"
@@ -123,7 +123,7 @@ const Services = () => {
                 <IoIosArrowDropright size={22} />
               </div>
             </div>
-            <div className="w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
+            <div className="xl:w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
               <div className="w-[70px] h-[70px] bg-[var(--sky-blue-color)] rounded-full flex justify-center items-center">
                 <img
                   src="/assets/logos/teeth-1.png"
@@ -145,7 +145,7 @@ const Services = () => {
                 <IoIosArrowDropright size={22} />
               </div>
             </div>
-            <div className="w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
+            <div className="xl:w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
               <div className="w-[70px] h-[70px] bg-[var(--sky-blue-color)] rounded-full flex justify-center items-center">
                 <img
                   src="/assets/logos/teeth-1.png"
@@ -170,7 +170,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="flex bg-[var(--dark-blue-color)] gap-[79px] justify-center items-center !py-13">
+      <div className="flex bg-[var(--dark-blue-color)] gap-[79px] justify-center lg:flex-row flex-col items-center !py-13 xl:!px-[0px] !px-[20px]">
         <div className="max-w-[571px]">
           <div className="h2_semibold text-[var(--secondary-white-color)] capitalize">
             <div className="flex gap-3 flex-col">
@@ -197,7 +197,7 @@ const Services = () => {
             </Button>
           </div>
         </div>
-        <div className="w-[414px] h-[397px] bg-[var(--secondary-white-color)] rounded-[10px] !p-[20px] flex flex-col justify-between">
+        <div className="sm:w-[414px] w-full  h-[397px] bg-[var(--secondary-white-color)] rounded-[10px] !p-[20px] flex flex-col justify-between">
           <div className="h4_medium text-[var(--dark-blue-color)] text-center">
             Request Appointment
           </div>
@@ -233,10 +233,10 @@ const Services = () => {
       </div>
 
       <div className="max_width_container">
-        <div className="!my-[100px]">
+        <div className="!my-[100px] xl:!px-[0px] !px-[20px]">
           <div className="flex flex-col justify-center items-center gap-[40px]">
             <div className="flex flex-col gap-[20px] max-w-[629px] justify-center items-center">
-              <div className="h2_semibold text-[var(--dark-blue-color)] capitalize text-center">
+              <div className="h2_semibold text-[var(--dark-blue-color)] capitalize text-center md:block hidden">
                 <div className="flex gap-3">
                   {" "}
                   We’re
@@ -254,7 +254,21 @@ const Services = () => {
                 </div>
                 <div>and can’t wait to meet you.</div>
               </div>
-              <div className="b1_regular text-[var(--body-text-color)] text-center max-w-[463px]">
+              <div className="h2_semibold text-[var(--dark-blue-color)] capitalize md:hidden block">
+                <div className="flex gap-3">
+                  {" "}
+                  We’re
+                  <div className="relative !z-[999]">
+                    welcoming
+                    <div className="absolute top-[-37px] left-0 !z-[9]">
+                      <img src="/assets/logos/welcoming-underline.png" alt="" />
+                    </div>
+                  </div>
+                  new
+                </div>
+                <div>patients and can’t wait to meet you.</div>
+              </div>
+              <div className="b1_regular text-[var(--body-text-color)] xl:text-center max-w-[463px]">
                 We use only the best quality materials on the market in order to
                 provide the best products to our patients.
               </div>
@@ -278,10 +292,11 @@ const Services = () => {
       <FrequentlyAskQues />
       {/* Frequently Ask Question section end */}
 
+
       <div className="!my-[110px] max_width_container">
-        <div className="flex justify-center items-center">
-          <div className="bg-[var(--dark-blue-color)] flex justify-between items-center gap-[80px] !px-12 !w-[1064px] !h-[392px] rounded-[10px]">
-            <div className="w-[582px]">
+        <div className="flex justify-center items-center ">
+          <div className="bg-[var(--dark-blue-color)] flex justify-between items-center gap-[80px] lg:!px-12 !w-[1064px] sm:!h-[392px] lg:rounded-[10px] sm:flex-row flex-col !py-12 !px-[20px]">
+            <div className="lg:w-[582px] w-full">
               <div className="h2_semibold text-[var(--secondary-white-color)] capitalize">
                 Dental Website that&apos;s gonna shake the game rules up.
               </div>
@@ -293,7 +308,7 @@ const Services = () => {
                 <Button>Learn More</Button>
               </div>
             </div>
-            <div className="w-[305px] h-[292px]">
+            <div className="sm:w-[305px] sm:h-[292px] w-full">
               <img
                 src="/assets/images/article-img-2.png"
                 alt=""
@@ -303,6 +318,7 @@ const Services = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };

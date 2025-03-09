@@ -264,8 +264,14 @@ body {
   letter-spacing: 1.5%;
   line-height: 155%;
 }
-
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1024px) {
+  .max_width_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 1024px) {
   .max_width_container {
     max-width: 1440px;
     margin: 0 auto;

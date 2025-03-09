@@ -1,19 +1,41 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.scss";
 import Button from "./Button";
 
-const Navbar = ({navbarBgColor}) => {
+const Navbar = ({ navbarBgColor }) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div className="max_width_container !pt-[40px] ">
       <div
-        className="navbar_container  sm:!mx-0 !mx-5"
+        className="navbar_container sm:!mx-0 !mx-5"
         style={{ backgroundColor: `${navbarBgColor}` }}
       >
         <div className="navbar">
-          <div>
+          <div className="logo">
             <img src="/assets/logos/logo.png" alt="" />
           </div>
-          <nav>
+
+          {/* Hamburger Menu Button (Mobile Only) */}
+          <div className="hamburger-menu" onClick={toggleMenu}>
+            <span
+              className={`hamburger-line ${isMenuOpen ? "open" : ""}`}
+            ></span>
+            <span
+              className={`hamburger-line ${isMenuOpen ? "open" : ""}`}
+            ></span>
+            <span
+              className={`hamburger-line ${isMenuOpen ? "open" : ""}`}
+            ></span>
+          </div>
+
+          {/* Desktop & Mobile Navigation */}
+          <nav className={`nav-container ${isMenuOpen ? "open" : ""}`}>
             <ul className="flex gap-[38px] navigation_links">
               <li>
                 <NavLink
@@ -63,9 +85,15 @@ const Navbar = ({navbarBgColor}) => {
                   Contact
                 </NavLink>
               </li>
+              {/* Mobile-only button */}
+              <li className="mobile-only-button">
+                <Button>Book Now</Button>
+              </li>
             </ul>
           </nav>
-          <div>
+
+          {/* Desktop-only button */}
+          <div className="desktop-only-button">
             <Button>Book Now</Button>
           </div>
         </div>
