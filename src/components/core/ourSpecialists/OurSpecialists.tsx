@@ -58,7 +58,7 @@ const OurSpecialists = () => {
           </div>
         </div>
       </div>
-      <div className="bg-red900 !md:ml-[80px] !mt-[80px] sm:!px-[0px] !px-[20px]">
+      <div className="bg-red900 sm:!ml-[80px] !mt-[80px] sm:!px-[0px] !px-[20px]">
         <div>
           <Carousel
             swipeable={false}
