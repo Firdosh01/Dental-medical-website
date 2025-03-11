@@ -26,7 +26,7 @@ const Home = () => {
               provide the best products to our patients, So don’t worry about
               anything and book yourself.
             </div>
-            <div className="sm:!mt-[40px] !mt-[30px] flex items-center sm:gap-[22px] gap-[16px]">
+            <div className="sm:!mt-[40px] !mt-[30px] flex sm:items-center sm:gap-[22px] gap-[16px] flex-wrap">
               <div className="w-fit">
                 <Button>Get Started</Button>
               </div>
@@ -347,7 +347,7 @@ const Home = () => {
           <div className="flex flex-col gap-[20px] w-[455px]">
             <div className="relative !z-[999] h2_semibold text-[var(--dark-blue-color)]">
               News & Articles
-              <div className="absolute sm:!top-[-70px] !top-[-55px] left-0 !z-[9]">
+              <div className="absolute sm:!top-[-70px] !top-[-50px] left-0 !z-[9]">
                 <img
                   src="/assets/logos/welcoming-underline.png"
                   alt=""

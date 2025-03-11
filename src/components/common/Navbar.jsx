@@ -11,7 +11,7 @@ const Navbar = ({ navbarBgColor }) => {
   };
 
   return (
-    <div className="max_width_container !pt-[40px] ">
+    <div className="max_width_container sm:!pt-[40px] !pt-[25px]">
       <div
         className="navbar_container 2xl:!mx-0 !mx-5"
         style={{ backgroundColor: `${navbarBgColor}` }}
