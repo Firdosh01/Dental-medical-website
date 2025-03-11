@@ -15,7 +15,7 @@ const About = () => {
           <div className="flex gap-3">
             <div className="relative !z-[999]">
               About Us
-              <div className="absolute top-[-32px] left-0 !z-[9]">
+              <div className="absolute sm:!top-[-32px] !top-[-20px] left-0 !z-[9]">
                 <img
                   src="/assets/logos/welcoming-underline.png"
                   alt=""
@@ -192,7 +192,7 @@ const About = () => {
                   Latest
                   <div className="relative !z-[999]">
                     Technology
-                    <div className="absolute top-[-37px] left-0 !z-[9]">
+                    <div className="absolute sm:!top-[-37px] !top-[-27px] left-0 !z-[9]">
                       <img
                         src="/assets/logos/welcoming-underline.png"
                         alt=""
@@ -336,7 +336,7 @@ const About = () => {
                     We’re
                     <div className="relative !z-[999]">
                       welcoming
-                      <div className="absolute top-[-37px] left-0 !z-[9]">
+                      <div className="absolute sm:!top-[-37px] !top-[-28px] left-0 !z-[9]">
                         <img
                           src="/assets/logos/welcoming-underline.png"
                           alt=""

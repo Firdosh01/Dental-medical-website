@@ -18,7 +18,7 @@ const Services = () => {
             <div className="flex gap-3">
               <div className="relative !z-[999]">
                 Services
-                <div className="absolute top-[-32px] left-0 !z-[9]">
+                <div className="absolute sm:!top-[-32px] !top-[-20px] left-0 !z-[9]">
                   <img
                     src="/assets/logos/welcoming-underline.png"
                     alt=""

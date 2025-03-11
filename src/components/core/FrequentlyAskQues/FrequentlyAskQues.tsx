@@ -14,7 +14,7 @@ const FrequentlyAskQues = () => {
       <div className="flex flex-col gap-[20px] justify-center items-center">
         <div className="relative !z-[999] h2_semibold text-[var(--dark-blue-color)] !select-none">
           Frequently Ask Question
-          <div className="absolute sm:top-[-125px] top-[-40px] left-0 !z-[9]">
+          <div className="absolute sm:top-[-125px] top-[-45px] left-0 !z-[9]">
             <img
               src="/assets/logos/welcoming-underline.png"
               alt=""

@@ -39,7 +39,7 @@ const OurClientReview = () => {
               Our
               <div className="relative !z-[999] items-center text-center">
                 Happy Clients
-                <div className="absolute top-[-54px] left-0 !z-[9]">
+                <div className="absolute sm:!top-[-54px] !top-[-40px] left-0 !z-[9]">
                   <img
                     src="/assets/logos/welcoming-underline.png"
                     alt=""

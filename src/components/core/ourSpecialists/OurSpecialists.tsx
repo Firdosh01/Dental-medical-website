@@ -42,7 +42,7 @@ const OurSpecialists = () => {
               Meet Our
               <div className="relative !z-[999]">
                 Specialists
-                <div className="absolute top-[-37px] left-0 !z-[9]">
+                <div className="absolute sm:!top-[-37px] !top-[-25px] left-0 !z-[9]">
                   <img
                     src="/assets/logos/welcoming-underline.png"
                     alt=""

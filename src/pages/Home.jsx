@@ -134,7 +134,7 @@ const Home = () => {
                   We’re
                   <div className="relative !z-[999]">
                     welcoming
-                    <div className="absolute top-[-37px] left-0 !z-[9]">
+                    <div className="absolute sm:!top-[-37px] !top-[-25px] left-0 !z-[9]">
                       <img src="/assets/logos/welcoming-underline.png" alt="" />
                     </div>
                   </div>
@@ -257,7 +257,7 @@ const Home = () => {
                   more
                   <div className="relative !z-[999]">
                     precise smile
-                    <div className="absolute top-[-52px] left-0 !z-[9]">
+                    <div className="absolute sm:!top-[-52px] !top-[-40px] left-0 !z-[9]">
                       <img
                         src="/assets/logos/welcoming-underline.png"
                         alt=""
@@ -293,7 +293,7 @@ const Home = () => {
                   We’re
                   <div className="relative !z-[999]">
                     welcoming
-                    <div className="absolute top-[-37px] left-0 !z-[9]">
+                    <div className="absolute top-[-37px]  left-0 !z-[9]">
                       <img
                         src="/assets/logos/welcoming-underline.png"
                         alt=""
@@ -311,7 +311,7 @@ const Home = () => {
                   We’re
                   <div className="relative !z-[999]">
                     welcoming
-                    <div className="absolute top-[-37px] left-0 !z-[9]">
+                    <div className="absolute sm:!top-[-37px] !top-[-28px] left-0 !z-[9]">
                       <img src="/assets/logos/welcoming-underline.png" alt="" />
                     </div>
                   </div>
@@ -347,11 +347,11 @@ const Home = () => {
           <div className="flex flex-col gap-[20px] w-[455px]">
             <div className="relative !z-[999] h2_semibold text-[var(--dark-blue-color)]">
               News & Articles
-              <div className="absolute top-[-70px] left-0 !z-[9]">
+              <div className="absolute sm:!top-[-70px] !top-[-55px] left-0 !z-[9]">
                 <img
                   src="/assets/logos/welcoming-underline.png"
                   alt=""
-                  className="w-[300px]"
+                  className="sm:w-[300px] w-[250px]"
                 />
               </div>
             </div>
