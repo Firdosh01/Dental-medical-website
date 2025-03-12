@@ -71,10 +71,18 @@ const OurClientReview = () => {
           containerClass="carousel-container"
           // removeArrowOnDeviceType={["tablet", "mobile"]}
           customRightArrow={
-            <CustomRightArrow BgColor={"#011632"} IconColor={"#fff"} />
+            <CustomRightArrow
+              BgColor={"#011632"}
+              IconColor={"#fff"}
+              onClick={undefined}
+            />
           }
           customLeftArrow={
-            <CustomLeftArrow BgColor={"#011632"} IconColor={"#fff"} />
+            <CustomLeftArrow
+              BgColor={"#011632"}
+              IconColor={"#fff"}
+              onClick={undefined}
+            />
           }
           // dotListClass="custom-dot-list-style"
           className="!pb-[100px]"

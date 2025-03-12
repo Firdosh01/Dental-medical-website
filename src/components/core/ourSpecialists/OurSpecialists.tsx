@@ -30,7 +30,6 @@ const OurSpecialists = () => {
     },
   };
 
-
   return (
     <div className="!mt-[120px] bg-[var(--light-blue-color)]  min-h-[753px] flex flex-col !py-[50px]">
       <div className="flex justify-center items-center flex-col max_width_container sm:px-[0px] !px-[20px]">
@@ -70,15 +69,23 @@ const OurSpecialists = () => {
             // autoPlay={true}
             // autoPlaySpeed={1000}
             keyBoardControl={true}
-            customTrnsition="all .5"
+            // customTrnsition="all .5"
             transitionDuration={2000}
             containerClass="carousel-container"
             // removeArrowOnDeviceType={["tablet", "mobile"]}
             customRightArrow={
-              <CustomRightArrow BgColor={"#fff"} IconColor={"#000"} />
+              <CustomRightArrow
+                BgColor={"#fff"}
+                IconColor={"#000"}
+                onClick={undefined}
+              />
             }
             customLeftArrow={
-              <CustomLeftArrow BgColor={"#fff"} IconColor={"#000"} />
+              <CustomLeftArrow
+                BgColor={"#fff"}
+                IconColor={"#000"}
+                onClick={undefined}
+              />
             }
             // dotListClass="custom-dot-list-style"
             className="!pb-[100px]"
