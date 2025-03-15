@@ -50,7 +50,7 @@
 
     // Mobile navigation styles
     & .nav-container {
-      transition: all 0.3s ease;
+      transition: all 0.1s ease;
     }
 
     & .mobile-only-button {
@@ -73,13 +73,12 @@
       top: 100px;
       left: 0;
       right: 0;
-      background-color: var(--light-blue-color);
-      border: 1.5px solid var(--mid-blue-color);
       border-radius: 10px;
       max-height: 0;
       overflow: hidden;
       padding: 0;
       z-index: 9999;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       visibility: hidden;
 
       &.open {

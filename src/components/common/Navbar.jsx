@@ -3,11 +3,12 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.scss";
 import Button from "./Button";
 
+// eslint-disable-next-line react/prop-types
 const Navbar = ({ navbarBgColor }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+  const handleToggleMenu = () => {
+    setIsMenuOpen((prev) => !prev);
   };
 
   return (
@@ -22,7 +23,7 @@ const Navbar = ({ navbarBgColor }) => {
           </div>
 
           {/* Hamburger Menu Button (Mobile Only) */}
-          <div className="hamburger-menu" onClick={toggleMenu}>
+          <div className="hamburger-menu" onClick={handleToggleMenu}>
             <span
               className={`hamburger-line ${isMenuOpen ? "open" : ""}`}
             ></span>
@@ -35,7 +36,10 @@ const Navbar = ({ navbarBgColor }) => {
           </div>
 
           {/* Desktop & Mobile Navigation */}
-          <nav className={`nav-container ${isMenuOpen ? "open" : ""}`}>
+          <nav
+            className={`nav-container ${isMenuOpen ? "open" : ""}`}
+            style={{ backgroundColor: `${navbarBgColor}` }}
+          >
             <ul className="flex gap-[38px] navigation_links">
               <li>
                 <NavLink
