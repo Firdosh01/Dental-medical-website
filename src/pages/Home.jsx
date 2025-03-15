@@ -10,6 +10,7 @@ import FrequentlyAskQues from "../components/core/FrequentlyAskQues/FrequentlyAs
 import Navbar from "../components/common/Navbar";
 import OurSpecialists from "../components/core/ourSpecialists/OurSpecialists";
 import { IoCallOutline } from "react-icons/io5";
+import Reveal from "../components/common/Reveal";
 
 const Home = () => {
   return (
@@ -18,35 +19,43 @@ const Home = () => {
       <div className="max_width_container">
         <div className="flex flex-wrap  lg:flex-nowrap 2xl:!mx-0 !mx-[20px] lg:!pt-[50px]">
           <div className="sm:max-w-[787px] lg:!pt-[116px] !pt-[68px] !pb-5">
-            <div className="h1_semibold text-[var(--dark-blue-color)] capitalize w-full">
-              Get ready for your best ever Dental Experience!
-            </div>
-            <div className="b1_regular sm:!mt-[22px] !mt-[32px]">
-              We use only the best quality materials on the market in order to
-              provide the best products to our patients, So don’t worry about
-              anything and book yourself.
-            </div>
-            <div className="sm:!mt-[40px] !mt-[30px] flex sm:items-center sm:gap-[22px] gap-[16px] flex-wrap">
-              <div className="w-fit">
-                <Button>Get Started</Button>
+            <Reveal>
+              <div className="h1_semibold text-[var(--dark-blue-color)] capitalize w-full">
+                Get ready for your best ever Dental Experience!
               </div>
-              <div className="flex items-center gap-4">
-                <div className="w-[55px] h-[55px] flex justify-center items-center border-[1.5px] rounded-[10px] border-[var(--mid-blue-color)]">
-                  <div className="bg-[var(--light-blue-color)] w-[45px] h-[45px] rounded-[10px] flex justify-center items-center">
-                    <BiSolidPhoneCall size={24} fill="var(--mid-blue-color)" />
+
+              <div className="b1_regular sm:!mt-[22px] !mt-[32px]">
+                We use only the best quality materials on the market in order to
+                provide the best products to our patients, So don’t worry about
+                anything and book yourself.
+              </div>
+
+              <div className="sm:!mt-[40px] !mt-[30px] flex sm:items-center sm:gap-[22px] gap-[16px] flex-wrap">
+                <div className="w-fit">
+                  <Button>Get Started</Button>
+                </div>
+                <div className="flex items-center gap-4">
+                  <div className="w-[55px] h-[55px] flex justify-center items-center border-[1.5px] rounded-[10px] border-[var(--mid-blue-color)]">
+                    <div className="bg-[var(--light-blue-color)] w-[45px] h-[45px] rounded-[10px] flex justify-center items-center">
+                      <BiSolidPhoneCall
+                        size={24}
+                        fill="var(--mid-blue-color)"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-[3px]">
+                    <div className="b3_semibold text-[var(--mid-blue-color)]">
+                      Dental 24H Emergency
+                    </div>
+                    <div className="b3_medium text-[var(--dark-blue-color)]">
+                      0900-78601
+                    </div>
                   </div>
                 </div>
-                <div className="flex flex-col gap-[3px]">
-                  <div className="b3_semibold text-[var(--mid-blue-color)]">
-                    Dental 24H Emergency
-                  </div>
-                  <div className="b3_medium text-[var(--dark-blue-color)]">
-                    0900-78601
-                  </div>
-                </div>
               </div>
-            </div>
+            </Reveal>
           </div>
+
           <div className="w[695px] md:h-auto md:w-full relative !mt-[53px] sm:!mt-[0px]">
             <img
               src="/assets/images/home-img-1.png"
@@ -56,7 +65,16 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="bg-[var(--light-blue-color)] !py-10 sm:!px-8 !px-[20px] xl:rounded-xl grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lace-items-center !gap-y-[20px]  xl:!gap-x-[20px] gap-x-[10px]">
+        <div
+          className="bg-[var(--light-blue-color)] !py-10 sm:!px-8 !px-[20px] xl:rounded-xl grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lace-items-center !gap-y-[20px]  xl:!gap-x-[20px] gap-x-[10px]"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-offset="200"
+          data-aos-delay="10"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <div className="max-w-[387px] h-[300px] bg-[var(--secondary-white-color)] !py-5  rounded-[10px] flex flex-col gap-2  justify-between items-center">
             <div className="w-[70px] h-[70px] bg-[var(--sky-blue-color)] rounded-full flex justify-center items-center">
               <img
@@ -125,7 +143,16 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex items-center lg:gap-[164px] sm:gap-[20px] gap-[80px] justify-center !mt-[100px] md:flex-row flex-col xl:!mx-0 !mx-[20px]">
+        <div
+          className="flex items-center lg:gap-[164px] sm:gap-[20px] gap-[80px] justify-center !mt-[100px] md:flex-row flex-col xl:!mx-0 !mx-[20px]"
+          data-aos="zoom-in-right"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-offset="200"
+          data-aos-delay="10"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <div className="md:max-w-[533px] w-full flex flex-col sm:gap-[40px] gap-[30px]">
             <div className="flex flex-col sm:gap-[20px] gap-[17px">
               <div className="h2_semibold text-[var(--dark-blue-color)] capitalize ">
@@ -247,7 +274,16 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex items-center lg:gap-[164px] gap-[50px] justify-center sm:!mt-[135px] !mt-[100px] xl:!mx-0 !mx-[20px] sm:flex-row flex-col">
+        <div
+          className="flex items-center lg:gap-[164px] gap-[50px] justify-center sm:!mt-[135px] !mt-[100px] xl:!mx-0 !mx-[20px] sm:flex-row flex-col"
+          data-aos="zoom-in-right"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-offset="200"
+          data-aos-delay="10"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <div className="md:max-w-[533px] flex flex-col sm:gap-[40px] gap-[30px] w-full">
             <div className="flex flex-col gap-[20px]">
               <div className="h2_semibold text-[var(--dark-blue-color)] capitalize">
@@ -284,7 +320,16 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="!mt-[100px]  xl:!mx-[0px] !mx-[20px]">
+        <div
+          className="!mt-[100px]  xl:!mx-[0px] !mx-[20px]"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-offset="200"
+          data-aos-delay="10"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <div className="flex flex-col justify-center items-center gap-[40px]">
             <div className="flex flex-col gap-[20px] max-w-[629px] justify-center items-center">
               <div className="h2_semibold text-[var(--dark-blue-color)] capitalize text-center md:block hidden">
@@ -343,28 +388,31 @@ const Home = () => {
       {/* our client review section end */}
       {/* article section start */}
       <div className="!mt-[100px]  flex flex-col !pt-[0px] max_width_container 2xl:!px-[0px] !px-[20px]">
-        <div className="flex justify-between items-end">
-          <div className="flex flex-col gap-[20px] w-[455px]">
-            <div className="relative !z-[999] h2_semibold text-[var(--dark-blue-color)]">
-              News & Articles
-              <div className="absolute sm:!top-[-70px] !top-[-50px] left-0 !z-[9]">
-                <img
-                  src="/assets/logos/welcoming-underline.png"
-                  alt=""
-                  className="sm:w-[300px] w-[250px]"
-                />
+        <Reveal>
+          <div className="flex justify-between items-end">
+            <div className="flex flex-col gap-[20px] w-[455px]">
+              <div className="relative !z-[999] h2_semibold text-[var(--dark-blue-color)]">
+                News & Articles
+                <div className="absolute sm:!top-[-70px] !top-[-50px] left-0 !z-[9]">
+                  <img
+                    src="/assets/logos/welcoming-underline.png"
+                    alt=""
+                    className="sm:w-[300px] w-[250px]"
+                  />
+                </div>
+              </div>
+              <div className="text-[var(--body-text-color)] b1_regular">
+                We use only the best quality materials on the market in order to
+                provide the best products to our patients.
               </div>
             </div>
-            <div className="text-[var(--body-text-color)] b1_regular">
-              We use only the best quality materials on the market in order to
-              provide the best products to our patients.
+
+            <div className="w-fit sm:block hidden">
+              <Button>View All</Button>
             </div>
           </div>
+        </Reveal>
 
-          <div className="w-fit sm:block hidden">
-            <Button>View All</Button>
-          </div>
-        </div>
         <div className="!mt-[71px]">
           <ArticlesGrid />
         </div>
@@ -378,18 +426,21 @@ const Home = () => {
       <div className="!my-[110px] max_width_container ">
         <div className="flex justify-center items-center ">
           <div className="bg-[var(--dark-blue-color)] flex justify-between items-center gap-[80px] lg:!px-12 !w-[1064px] sm:!h-[392px] lg:rounded-[10px] sm:flex-row flex-col !py-12 !px-[20px]">
-            <div className="lg:w-[582px] w-full">
-              <div className="h2_semibold text-[var(--secondary-white-color)] capitalize">
-                Dental Website that&apos;s gonna shake the game rules up.
+            <Reveal>
+              <div className="lg:w-[582px] w-full">
+                <div className="h2_semibold text-[var(--secondary-white-color)] capitalize">
+                  Dental Website that&apos;s gonna shake the game rules up.
+                </div>
+                <p className="b1_regular text-[var(--secondary-white-color)] !mt-[13px]">
+                  We use only the best quality materials on the market in order
+                  to provide the best products to our patients.
+                </p>
+                <div className="w-fit !mt-[30px]">
+                  <Button>Learn More</Button>
+                </div>
               </div>
-              <p className="b1_regular text-[var(--secondary-white-color)] !mt-[13px]">
-                We use only the best quality materials on the market in order to
-                provide the best products to our patients.
-              </p>
-              <div className="w-fit !mt-[30px]">
-                <Button>Learn More</Button>
-              </div>
-            </div>
+            </Reveal>
+
             <div className="sm:w-[305px] sm:h-[292px] w-full">
               <img
                 src="/assets/images/article-img-2.png"

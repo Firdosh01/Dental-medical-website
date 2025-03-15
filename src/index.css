@@ -298,4 +298,12 @@ body {
   .h2_semibold {
     font-size: 1.8rem;
   }
+  .b1_medium {
+    font-size: 1rem;
+    line-height: 120%;
+  }
+  .b1_regular {
+    font-size: 1rem;
+    line-height: 120%;
+  }
 }

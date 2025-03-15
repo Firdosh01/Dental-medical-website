@@ -18,7 +18,7 @@ const FrequentlyAskQues = () => {
             <img
               src="/assets/logos/welcoming-underline.png"
               alt=""
-              className="sm:w-[600px]"
+              className="sm:w-[600px] w-[220px]"
             />
           </div>
         </div>
@@ -34,7 +34,7 @@ const FrequentlyAskQues = () => {
               return (
                 <div
                   key={index}
-                  className={`flex flex-col gap-[20px] !px-7  ${
+                  className={`flex flex-col sm:gap-[20px] gap-[10px] !px-7  ${
                     accordionIndex === index &&
                     "bg-[var(--mid-blue-color)]  rounded-[10px] !py-5 !px-7 "
                   }`}
